@@ -46,3 +46,6 @@ and then type "git merge feature" which is a much better idea. So we did this on
 Command to git rid of it is "git branch -d <branch_name>." and this is what you would use.
 your response should be "Deleted <branch_name> with ( a sha ID #) to identify the deleted branch.(was 85df4c0)
 Like that.
+Note: When You checkout an earlier commit, you are now in a "detached HEAD" state, this means that you are
+no longer on the commit that is being pointed to by the HEAD. The HEAD, in git, is a pointer to the most recent 
+commit of whichever branch you are currently on.
