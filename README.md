@@ -38,6 +38,7 @@ and vise-versa. If you move from feature to master file5.html disappears from th
 Yet once you you return to feature file5.html returns to it's original spot, and when you check log you'll see file5.html. Logs while in master will also not show file5.html for the same reason, in master unaware in logs also.
 
 -Merging a branch
-
+Type "git merge <branch_name>" to create the bridge that bridges the gap between master and feature branch.
+This will make both branches knowwhat's in the others files.
 
 -Removing a branch
