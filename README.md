@@ -18,3 +18,22 @@ This is a good command for adding everything in your project, all at one time.
 Never did find a really good way. tried all Git suggestions . Finally had to add,commit, and then manually delete files by hand to remove them. What!!! a chore. Nothing worked.
 # Ignoring files
 Set up gitignore and type in code console, what you want it to ignore. Possible that won't work either.
+
+# Git Branches
+
+-Listing all branches
+presently only the Master and Feature brances made.
+
+-Adding a branch
+To add a branch we call for it with "Git branch."   And then type "Git checkout -b and <name of file>."
+
+
+-Changing branches
+Type "Git checkout <name of branch You want>.
+You wil see git says "Switched to branch and <name if file that we switched to>."
+
+
+-Merging a branch
+
+
+-Removing a branch
