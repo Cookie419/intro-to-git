@@ -30,8 +30,12 @@ To add a branch we call for it with "Git branch."   And then type "Git checkout 
 
 -Changing branches
 Type "Git checkout <name of branch You want>.
-You wil see git says "Switched to branch and <name if file that we switched to>."
+You will see git says "Switched to branch and <name if file that we switched to>."
 
+While on feature branch if you add file5.html itwill show up in logs as added, but once you return to master branch
+You'll note that file5.html disappears. This is because before merge master has no idea what's going on in feature
+and vise-versa. If you move from feature to master file5.html disappears from the explorer box in our vs code IDE.
+Yet once you you return to feature file5.html returns to it's original spot, and when you check log you'll see file5.html. Logs while in master will also not show file5.html for the same reason, in master unaware in logs also.
 
 -Merging a branch
 
