@@ -39,6 +39,7 @@ Yet once you you return to feature file5.html returns to it's original spot, and
 
 -Merging a branch
 Type "git merge <branch_name>" to create the bridge that bridges the gap between master and feature branch.
-This will make both branches knowwhat's in the others files.
+This will make both branches knowwhat's in the others files. the other way would be to use "git checkout master.
+and then type "git merge feature" which is a much better idea. So we did this one.
 
 -Removing a branch
